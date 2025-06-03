@@ -1,0 +1,59 @@
+# Example 1: Private method in a class
+
+class computer_lab:
+    def __init__(self):
+        self.__locker()  # Call the private method
+
+    def __locker(self):
+        print(100000000000253210)  # Print a large number
+
+computer_lab()  # Output: 100000000000253210
+
+# Example 2: Abstract Base Class and Inheritance
+
+from abc import ABC, abstractmethod
+
+class A(ABC):
+    @abstractmethod
+    def details(self):
+        pass
+
+class K(A):
+    def details(self):
+        print("mahesh")
+
+K().details()  # Output: mahesh
+
+# Example 3: Method with optional argument
+
+class computer_lab:
+    def krishna(self, arg=""):
+        if arg:
+            print("hi", arg)
+        else:
+            print("hi")
+
+computer_lab().krishna()        # Output: hi
+computer_lab().krishna("Ram")   # Output: hi Ram
+
+# Example 4: Class with total and average methods
+
+class computer_lab:
+    def __init__(self, eng, maths, chemistry):
+        self.eng = eng
+        self.maths = maths
+        self.chemistry = chemistry
+
+    def total(self):
+        tot = self.eng + self.chemistry + self.maths
+        print(tot)
+
+    def avrage(self):
+        avg = (self.eng + self.chemistry + self.maths) / 4
+        print(avg)
+
+ravi = computer_lab(10, 20, 30)
+mahi = computer_lab(12, 21, 21)
+
+ravi.total()    # Output: 60
+ravi.avrage()   # Output: 15.0
