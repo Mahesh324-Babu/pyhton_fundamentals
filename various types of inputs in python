@@ -1,0 +1,29 @@
+
+# Integer input
+
+int_input = int(input("Enter an integer: "))
+print("Integer:", int_input)
+
+
+# Float input
+
+float_input = float(input("Enter a float: "))
+print("Float:", float_input)
+
+# String input
+
+str_input = input("Enter a string: ")
+print("String:", str_input)
+
+
+# Boolean input (using string comparison)
+
+bool_input = input("Enter True or False: ").strip().lower() == "true"
+print("Boolean:", bool_input)
+
+
+# List input (comma-separated values)
+
+list_input = input("Enter a list of numbers separated by commas: ")
+list_input = [int(x) for x in list_input.split(",")]
+print("List:", list_input)
