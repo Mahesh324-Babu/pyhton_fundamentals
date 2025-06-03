@@ -1,0 +1,43 @@
+a = 10
+b = 20
+
+print("a =", a)
+print("b =", b)
+
+# 1. Equal to
+print("a == b:", a == b)           # False
+
+# 2. Not equal to
+print("a != b:", a != b)           # True
+
+# 3. Greater than
+print("a > b:", a > b)             # False
+
+# 4. Less than
+print("a < b:", a < b)             # True
+
+# 5. Greater than or equal to
+print("a >= b:", a >= b)           # False
+
+# 6. Less than or equal to
+print("a <= b:", a <= b)           # True
+
+# 7. Compare strings
+str1 = "apple"
+str2 = "banana"
+print('str1 == str2:', str1 == str2)   # False
+print('str1 < str2:', str1 < str2)     # True
+
+# 8. Compare lists
+list1 = [1, 2, 3]
+list2 = [1, 2, 4]
+print('list1 == list2:', list1 == list2)   # False
+print('list1 < list2:', list1 < list2)     # True
+
+# 9. Compare booleans
+print('True == False:', True == False)     # False
+
+# 10. Compare floats
+f1 = 3.14
+f2 = 2.71
+print('f1 > f2:', f1 > f2)                 # True
