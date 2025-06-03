@@ -1,0 +1,21 @@
+# Original string
+a = "mahesh babu"                      
+
+# List of vowels
+list_vowel = ['a', 'e', 'i', 'o', 'u'] 
+
+# Initialize an empty string for result
+b = ""                                 
+
+# Loop through each character in the string
+for i in a:                            
+    # If character is a vowel (case-insensitive)
+    if i.lower() in list_vowel:        
+        # Convert vowel to uppercase and add to result
+        b += i.upper()                 
+    else:
+        # Add non-vowel character as is
+        b += i                        
+
+# Print the result with vowels in uppercase
+print(b)                               # Output: mAhEsh bAbU
