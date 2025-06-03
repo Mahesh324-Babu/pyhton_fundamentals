@@ -1,5 +1,5 @@
 # pyhton_fundamentals
-#CHECK THE PRIME NUMBER OR NOT
+#
 n = 17  # Change this value to check other numbers
 
 if n < 2:
@@ -13,3 +13,5 @@ else:
         print(f"{n} is a prime number")
     else:
         print(f"{n} is not a prime number")
+
+
