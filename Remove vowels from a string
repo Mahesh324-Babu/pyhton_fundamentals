@@ -1,0 +1,16 @@
+# Remove vowels from a string
+
+a = "abijeol"                      # Original string
+list_vowel = ['a', 'e', 'i', 'o', 'u']  # List of vowels
+
+# Convert string to lowercase
+a = a.lower()                      
+# Initialize an empty string for result
+neww = ""                          
+
+# Loop through each character
+for i in a:                       
+    if i not in list_vowel:        # If character is not a vowel
+        neww += i                  # Add it to the result string
+
+print(neww)                        # Output: bjl
