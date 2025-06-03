@@ -1,0 +1,4 @@
+a=input() #reading 1st input
+print (a) #print the 1st input
+b=input() #read 2nd 
+print (b)  # print 2nd 
